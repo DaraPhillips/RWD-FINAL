@@ -1,0 +1,777 @@
+body {
+    margin: 0px 10px;
+    padding: 0;
+    background-color: #35455C;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #35455C;
+    position: relative;
+    
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 20px 23px;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    border-radius: 100px;
+    border: 2px solid #C9AB64;
+
+}
+
+.topnav a.icon:hover {
+    background-color: #C9AB64;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    border-radius: 100px;
+    border: 2px solid #efefef;
+
+}
+
+/* Add a grey background color on mouse-over */
+.topnav #myLinks :hover {
+    background-color: rgba(0, 0, 0, .4);
+    color: #efefef; 
+    border-radius: 5px;
+    border: 2px solid #efefef;
+}
+
+.topnav #myLinks :active {
+    border-radius: 5px;
+    border: 2px solid #C9AB64;
+    background-color: #efefef;
+    color: #35455C;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #35455C;
+    color: white;
+    width: 100%;
+}
+
+.topnav img {
+    left: 0;
+    top: 0;
+    padding: 0;
+    width: 17%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+}
+
+#myLinks .button {
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    color: rgba(0, 0, 0, .4);
+    font-family: Knewave;
+}
+
+#myLinks input.search-input {font-family: Montserrat; 
+    text-align: center;
+    padding: 2.5px;}
+
+/* Header */
+
+main {
+    height: 570px;
+    
+}
+
+.mainContainer {
+    background-color: rgba(0, 0, 0, .4);
+    height: 200px;
+    
+}
+
+.mainContainer h1 {
+    width: 100%;
+    color: #efefef;
+    text-align: center;
+    font-size: 3em;
+    font-family: Knewave, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.mainContainer .Here {
+    width: 100%;
+    color: #C9AB64;
+    text-align: center;
+    font-size: 3em;
+    font-family: Knewave, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: -25px;
+}
+
+.leftSideMain {
+    height: 200px;
+}
+
+/* Form */
+
+.LoginContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.passwd-wrap {
+    position: relative;
+}
+
+#show-passwd {
+
+    
+    position: absolute;
+    cursor: pointer;
+    width: 2rem;
+    margin-left: -45px;
+    margin-top: 7.5px;
+    border: none;
+    background: none;
+   
+}
+
+    #show-passwd img {
+        width: 100%;
+        border: none;
+        height: auto;
+    }
+
+    #show-passwrd {
+
+    
+        position: absolute;
+        cursor: pointer;
+        width: 2rem;
+        margin-left: -45px;
+        margin-top: 7.5px;
+        border: none;
+        background: none;
+       
+    }
+    
+        #show-passwrd img {
+            width: 100%;
+            border: none;
+            height: auto;
+        }
+
+fieldset {  
+          border-style:none;
+          }
+
+legend { width: 100%; 
+         text-align: center;
+         font-family: Knewave, Arial, Helvetica, sans-serif;
+         font-size: 1.3em;}
+
+form {
+    width: 100%;
+    height: 800px;
+    background-color:rgba(0, 0, 0, .4);
+    border-radius: 15px;
+
+    display: block;
+    align-items: center;
+    padding: 10px 10px 100px 10px;
+    margin: 0px 0px 0 0;
+    color: #efefef;
+}
+
+form li {
+    font-size: 2em;
+    color: #efefef;
+    width: 100%;
+    display: block;
+}
+
+form input {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: .7em;
+}
+
+#formInput { width: 100%; text-align: center;}
+
+form label {
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+    width: 100%;
+}
+
+form #submit {
+   
+    text-align: center;
+    padding: 20px 20px;
+    color: rgba(0, 0, 0, .4);
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    margin: 0px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+form #submit:hover {
+    
+    text-align: center;
+    padding: 20px 20px;
+    color: #efefef;
+    background-color: rgba(0, 0, 0, .4);
+    border: 2px solid #efefef;
+    margin: 0px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+form #submit:active {
+    
+    text-align: center;
+    padding: 10px 40px;
+    color: #35455C;
+    background-color: #efefef;
+    border: 2px solid #efefef;
+    margin: 0px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+form #reset { text-align: center;
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, .4);
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    margin: 10px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: 1.3em;}
+
+    #reset {width: 100%;}
+
+    form #reset:hover {
+    
+        text-align: center;
+        padding: 10px 20px;
+        color: #efefef;
+        background-color: rgba(0, 0, 0, .4);
+        border: 2px solid #efefef;
+        margin: 10px 0px 0px 0px;
+        font-family: Knewave;
+        font-size: 1.3em;
+
+    }
+
+    form #reset:active {
+    
+        text-align: center;
+        padding: 10px 20px;
+        color: #35455C;
+        background-color: #efefef;
+        border: 2px solid #efefef;
+        margin: 10px 0px 0px 0px;
+        font-family: Knewave;
+        font-size: 1.3em;
+        
+    }
+   /* field containers */ 
+    #formInput 
+    
+
+/* Help text */
+    form span {font-size: .5em; color: #C9AB64;
+               margin-top: 35px;}
+
+    form span.heading {font-size: 1em; 
+                       color: #C9AB64;
+                       border-bottom: 2px solid #C9AB64;
+                       border-top: 2px solid #C9AB64; 
+                     
+                       padding: 0px 20px;
+    }
+    
+    
+
+/* Radio button colour */
+
+   input {accent-color:#C9AB64;}
+
+
+.FP {
+    color: #efefef;
+    font-size: .5em;
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+}
+.FP:hover  {
+    color: #C9AB64;
+    font-size: .5em;
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+}
+.FP:active  {
+    color: rgba(0, 0, 0, .4);
+    font-size: .5em;
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+}
+
+
+
+/* Footer */
+
+
+
+
+
+ul.footer_bar {
+    margin:560px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+footer .footer_bar {
+    background-color: rgba(0, 0, 0, .8);
+    list-style: none;
+    text-align: center;
+    color: #efefef;
+    padding: 0;
+    height: 300px;
+    flex-direction: column;}
+
+
+
+.footer_bar li a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+.footer_bar li a:hover {
+    color: #C9AB64;
+    text-decoration: #C9AB64;
+}
+
+.footer_bar li a:active {
+    color: #35455C;
+    text-decoration: #35455C;
+}
+
+section {width: 0; background-color: none;  display: none; height: 0px;}
+
+
+@media only screen and (min-width: 412px) {
+
+    body {
+        margin: 0px 60px;
+    }
+
+    /* Main */
+
+    main {
+        height: 400px;
+    }
+
+    .mainContainer {
+        height: 400px;
+    }
+
+    .mainContainer h1 {
+        width: 100%;
+        color: #efefef;
+        text-align: center;
+        font-size: 5em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .mainContainer .Here {
+        width: 100%;
+        color: #C9AB64;
+        text-align: center;
+        font-size: 5em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        margin-top: -25px;
+    }
+
+    /* Form */
+
+    /* Form */
+
+.LoginContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.passwd-wrap {
+    position: relative;
+}
+
+#show-passwd {
+
+    
+    position: absolute;
+    cursor: pointer;
+    width: 2rem;
+    margin-left: -45px;
+    margin-top: 7.5px;
+    border: none;
+    background: none;
+   
+}
+
+    #show-passwd img {
+        width: 100%;
+        border: none;
+        height: auto;
+    }
+
+fieldset {  
+          border-style:none;
+          }
+
+legend { width: 100%; 
+         text-align: center;
+         font-family: Knewave, Arial, Helvetica, sans-serif;
+         font-size: 1..5em;}
+
+form {
+    width: 100%;
+    height: 900px;
+    background-color:rgba(0, 0, 0, .4);
+    border-radius: 15px;
+
+    display: block;
+    align-items: center;
+    padding: 100px 10px 100px 10px;
+    margin: 50px 0px 0 0;
+    color: #efefef;
+}
+
+form li {
+    font-size: 2.2em;
+    color: #efefef;
+    width: 100%;
+    display: block;
+}
+
+form input {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: .7em;
+}
+
+#formInput { width: 100%; text-align: center;}
+
+form label {
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+    width: 100%;
+}
+
+form #submit {
+   
+    text-align: center;
+    padding: 20px 20px;
+    color: rgba(0, 0, 0, .4);
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    margin: 0px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form #submit:hover {
+    
+    text-align: center;
+    padding: 20px 20px;
+    color: #efefef;
+    background-color: rgba(0, 0, 0, .4);
+    border: 2px solid #efefef;
+    margin: 0px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form #submit:active {
+    
+    text-align: center;
+    padding: 10px 40px;
+    color: #35455C;
+    background-color: #efefef;
+    border: 2px solid #efefef;
+    margin: 0px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form #reset { text-align: center;
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, .4);
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    margin: 10px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: 1.5em;}
+
+    #reset {width: 100%;}
+
+    form #reset:hover {
+    
+        text-align: center;
+        padding: 10px 20px;
+        color: #efefef;
+        background-color: rgba(0, 0, 0, .4);
+        border: 2px solid #efefef;
+        margin: 10px 0px 0px 0px;
+        font-family: Knewave;
+        font-size: 1.5em;
+
+    }
+
+    form #reset:active {
+    
+        text-align: center;
+        padding: 10px 20px;
+        color: #35455C;
+        background-color: #efefef;
+        border: 2px solid #efefef;
+        margin: 10px 0px 0px 0px;
+        font-family: Knewave;
+        font-size: 1.5em;
+        
+    }
+   /* field containers */ 
+    fieldset#buttons { text-align: center; display: flex; justify-content: center;
+    }
+
+/* Help text */
+    form span {font-size: .7em; color: #C9AB64;
+               margin-top: 35px;}
+
+    form span.heading {font-size: 1.8em; 
+                       color: #C9AB64;
+                       border-bottom: 2px solid #C9AB64;
+                       border-top: 2px solid #C9AB64; 
+                     
+                       padding: 0px 20px;
+    }
+    
+    
+
+/* Radio button colour */
+
+   input {accent-color:#C9AB64;}
+
+   .FP {
+    color: #efefef;
+    font-size: .7em;
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+}
+.FP:hover  {
+    color: #C9AB64;
+    font-size: .7em;
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+}
+.FP:active  {
+    color: rgba(0, 0, 0, .4);
+    font-size: .7em;
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+}
+   
+    footer .footer_bar {
+        margin-top: 1200px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1060px) {
+
+    body {
+        margin: 0px 80px;
+    }
+
+    /* Nav */
+
+    .topnav #myLinks {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+
+    #myLinks .button {
+        background-color: #C9AB64;
+        border: 2px solid #efefef;
+        color: rgba(0, 0, 0, .4);
+        font-family: Knewave;
+        border-radius: 5px;
+        margin-right: 4px;
+    }
+
+    #myLinks a:hover {
+        border-radius: 5px;
+        border: 2px solid #efefef;
+    }
+
+    #myLinks .button:active {
+        background-color: #C9AB64;
+        border: 2px solid #efefef;
+        background-color: #efefef;
+        color: #35455C;
+        border-radius: 5px;
+        margin-right: 4px;
+    }
+
+    #myLinks a:active {
+        border-radius: 5px;
+        border: 2px solid #C9AB64;
+        background-color: #efefef;
+        color: #35455C;
+    }
+
+    /* Main */
+
+    main {
+        height: 1750px;
+        display: block;
+        background-color: rgba(0, 0, 0, .4);
+    }
+
+    .mainContainer {
+        height: 500px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .mainContainer h1 {
+        width: 100%;
+        color: #efefef;
+        text-align: center;
+        font-size: 7em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding-top: 100px;
+    }
+
+    .mainContainer .Here {
+        width: 100%;
+        color: #C9AB64;
+        text-align: center;
+        font-size: 7em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        margin-top: -25px;
+    }
+
+    .LoginContainer {width: 100%; margin-top: 0px; margin-right: 0px; height: 1200px;}
+
+    /* Form */
+
+    form {
+        width: 100%;
+        height: 950px;
+        background-color: #35455C;
+        border-radius: 15px;
+        border: 2px solid #C9AB64;
+        display: block;
+        align-items: center;
+        padding: 100px 10px 100px 10px;
+        margin: 0px 300px 0 300px;
+        color: #efefef;
+    }
+
+    .FP {
+        color: #efefef;
+        font-size: .7em;
+        width: 100%;
+        text-align: center;
+        float: right;
+        margin-top: 10px;
+    }
+    .FP:hover  {
+        color: #C9AB64;
+        font-size: .7em;
+        width: 100%;
+        text-align: center;
+        float: right;
+        margin-top: 10px;
+    }
+    .FP:active  {
+        color: rgba(0, 0, 0, .4);
+        font-size: .7em;
+        width: 100%;
+        text-align: center;
+        float: right;
+        margin-top: 10px;
+    }
+       /* Nav toggle */
+
+   .topnav a.icon {
+    display: none;
+}
+    
+    footer .footer_bar {
+        margin-top: 50px;
+    }
+
+    
+    
+}

@@ -1,0 +1,651 @@
+body {
+    margin: 0px 10px;
+    padding: 0;
+    background-color: #35455C;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #35455C;
+    position: relative;
+    
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 20px 23px;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    border-radius: 100px;
+    border: 2px solid #C9AB64;
+
+}
+
+.topnav a.icon:hover {
+    background-color: #C9AB64;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    border-radius: 100px;
+    border: 2px solid #efefef;
+
+}
+
+/* Add a grey background color on mouse-over */
+.topnav #myLinks :hover {
+    background-color: rgba(0, 0, 0, .4);
+    color: #efefef; 
+    border-radius: 5px;
+    border: 2px solid #efefef;
+}
+
+.topnav #myLinks :active {
+    border-radius: 5px;
+    border: 2px solid #C9AB64;
+    background-color: #efefef;
+    color: #35455C;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #35455C;
+    color: white;
+    width: 100%;
+}
+
+.topnav img {
+    left: 0;
+    top: 0;
+    padding: 0;
+    width: 17%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+}
+
+#myLinks .button {
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    color: rgba(0, 0, 0, .4);
+    font-family: Knewave;
+}
+
+#myLinks input.search-input {font-family: Montserrat; 
+    text-align: center;
+    padding: 2.5px;}
+
+/* Header */
+
+main {
+    height: 200px;
+    
+}
+
+.mainContainer {
+    background-color: rgba(0, 0, 0, .4);
+    height: 200px;
+    
+}
+
+.mainContainer h1 {
+    width: 100%;
+    color: #efefef;
+    text-align: center;
+    font-size: 3em;
+    font-family: Knewave, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.mainContainer .Tips {
+    width: 100%;
+    color: #C9AB64;
+    text-align: center;
+    font-size: 3em;
+    font-family: Knewave, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: -25px;
+}
+
+.leftSideMain {
+    height: 200px;
+}
+
+/* Section / Accordion */
+
+section {background-color: rgba(0, 0, 0, .4); 
+         margin-top: 10px;
+         padding: 19px;
+         width: 90%;
+         height: 100%;}
+
+#accordion { margin-top: 10px;}
+
+#accordion .acc {color: #efefef;
+              border: 2px solid #C9AB64;
+              background-color: #efefef;
+              padding: 10px;
+              border-radius: 5px;
+              color:rgba(0, 0, 0, .8);
+              height: 700px;
+              overflow: scroll;
+            }
+
+#accordion h3 {background-color: #C9AB64;
+               color: rgba(0, 0, 0, .8);
+               border-radius: 5px;
+               padding: 10px;
+               margin: 0 0 5px 0;
+               text-align: center;}
+
+#accordion h3:hover {background-color: #35455C;
+color: #efefef;
+border-radius: 5px;
+border: 2px solid #efefef;
+padding: 10px;
+margin: 0 0 5px 0;
+text-align: center;}
+
+#accordion h3:active {background-color: #efefef;
+    color: #35455C;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 5px 0;
+    text-align: center;}
+
+#accordion ul {list-style-type: none;}
+
+#accordion li {padding-bottom: 8px;font-weight:800;}
+
+#accordion span { font-weight: 400;}
+
+/* Surf talk */
+
+section .quote-container{
+        
+    height: 300px;
+    font-family: 'Knewave, Montserrat';
+    font-weight: 200;
+    text-align: center;
+    margin: 0px 0 0 0;
+    padding: 0;
+    border-radius: 0;
+   
+    /*box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);*/
+    
+    /*  Vertical height */
+}
+
+ /* Term text */
+.quote-text { 
+    font-size: 1.5em;
+    font-family: Knewave;
+    color: #C9AB64;
+}
+
+.long-quote {
+    font-size: .8rem;
+}
+
+ /* explaination text */
+.quote-author {
+    margin: 40px 80px 0px 80px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Montserrat, Arial;
+    color: #efefef;
+    text-align: center;
+}
+
+/* explaination text border */
+
+span#author { border: none; font-size: 1em;}
+span#quote {font-size: 1em;}
+    
+ /* button */
+
+#new-quote {
+    
+    cursor: pointer;
+    font-size: 1em;
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    border-radius: 60px;
+    color: rgba(0, 0, 0, .4);
+    margin: 50px 0px;
+    text-align: center;
+    font-family: Knewave, sans-serif;
+    padding: 10px 15px;
+    position:sticky;
+    
+}
+
+
+ #new-quote:hover {
+    background-color: rgba(0, 0, 0, .4);
+    color: #efefef;
+    border: 2px solid #efefef;
+
+}
+
+#new-quote:active {
+    
+    background-color: #efefef;
+    color: #35455C;
+    
+}
+
+.fa-quote-left {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: #efefef;
+}
+.fa-quote-right {
+    font-size: 1rem;
+    margin-left: 10px;
+    color: #efefef;
+}
+/* Footer */
+
+ul.footer_bar {
+    margin:10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer_bar {
+    background-color: rgba(0, 0, 0, .8);
+    list-style: none;
+    text-align: center;
+    color: #efefef;
+    padding: 0;
+    height: 300px;
+    flex-direction: column;
+}
+
+
+.footer_bar li a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+.footer_bar li a:hover {
+    color: #C9AB64;
+    text-decoration: #C9AB64;
+}
+
+.footer_bar li a:active {
+    color: #35455C;
+    text-decoration: #35455C;
+}
+
+
+
+
+@media only screen and (min-width: 412px) {
+
+    body {
+        margin: 0px 60px;
+    }
+
+    /* Main */
+
+    main {
+        height: 400px;
+    }
+
+    .mainContainer {
+        height: 400px;
+    }
+
+    .mainContainer h1 {
+        width: 100%;
+        color: #efefef;
+        text-align: center;
+        font-size: 5em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .mainContainer .Tips {
+        width: 100%;
+        color: #C9AB64;
+        text-align: center;
+        font-size: 5em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        margin-top: -25px;
+    }
+
+  
+
+    /* Accordion Container */
+    section {background-color: rgba(0, 0, 0, .4); 
+        margin-top: 10px;
+        padding: 42px;
+        width: 90%;
+        height: 100%;}
+
+        #accordion .acc {color: #efefef;
+            border: 2px solid #C9AB64;
+            background-color: #efefef;
+            padding: 10px;
+            border-radius: 5px;
+            color:rgba(0, 0, 0, .8);
+            height: 450px;
+            overflow: scroll;
+          }
+
+    /* Surf talk */
+
+section .quote-container{
+        
+    height: 400px;
+    font-family: 'Knewave, Montserrat';
+    font-weight: 200;
+    text-align: center;
+    margin: 0px 0 0 0;
+    padding: 0;
+    border-radius: 0;
+   
+    /*box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);*/
+    
+    /*  Vertical height */
+}
+
+ /* Term text */
+.quote-text { 
+    font-size: 1.8em;
+    font-family: Knewave;
+    color: #C9AB64;
+}
+
+.long-quote {
+    font-size: 1em;
+}
+
+ /* explaination text */
+.quote-author {
+    margin: 40px 80px 0px 80px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: Montserrat, Arial;
+    color: #efefef;
+    text-align: center;
+}
+
+/* explaination text border */
+
+span#author { border: none; font-size: 1.5em;}
+span#quote {font-size: 1.5em;}
+    
+ /* button */
+
+#new-quote {
+    
+    cursor: pointer;
+    font-size: 1.5em;
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    border-radius: 60px;
+    color: rgba(0, 0, 0, .4);
+    margin: 50px 0px;
+    text-align: center;
+    font-family: Knewave, sans-serif;
+    padding: 10px 15px;
+    position:sticky;
+    
+}
+
+
+ #new-quote:hover {
+    background-color: rgba(0, 0, 0, .4);
+    color: #efefef;
+    border: 2px solid #efefef;
+
+}
+
+#new-quote:active {
+    
+    background-color: #efefef;
+    color: #35455C;
+    
+}
+
+.fa-quote-left {
+    font-size: 1.3rem;
+    margin-right: 10px;
+    color: #efefef;
+}
+.fa-quote-right {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color: #efefef;
+}
+   
+
+    footer .footer_bar {
+        margin-top: 20px;
+    }
+   
+
+}
+
+@media only screen and (min-width: 1060px) {
+
+    body {
+        margin: 0px 80px;
+    }
+
+    /* Nav */
+
+    .topnav #myLinks {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+
+    #myLinks .button {
+        background-color: #C9AB64;
+        border: 2px solid #efefef;
+        color: rgba(0, 0, 0, .4);
+        font-family: Knewave;
+        border-radius: 5px;
+        margin-right: 4px;
+    }
+
+    #myLinks a:hover {
+        border-radius: 5px;
+        border: 2px solid #efefef;
+    }
+
+    #myLinks .button:active {
+        background-color: #C9AB64;
+        border: 2px solid #efefef;
+        background-color: #efefef;
+        color: #35455C;
+        border-radius: 5px;
+        margin-right: 4px;
+    }
+
+    #myLinks a:active {
+        border-radius: 5px;
+        border: 2px solid #C9AB64;
+        background-color: #efefef;
+        color: #35455C;
+    }
+
+    /* Main */
+
+    main {
+        height: 800px;
+        display: flex;
+        background-color: rgba(0, 0, 0, .4);
+    }
+
+    .mainContainer {
+        height: 500px;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .mainContainer h1 {
+        width: 100%;
+        color: #efefef;
+        text-align: center;
+        font-size: 7em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding-top: 100px;
+    }
+
+    .mainContainer .Tips {
+        width: 100%;
+        color: #C9AB64;
+        text-align: center;
+        font-size: 7em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        margin-top: -25px;
+    }
+
+   
+
+
+
+    /* Accordion Container */
+
+    .accordionContainer {width: 40%; float: right; margin-top: -750px; margin-right: 100px;}
+
+    #accordion .acc {color: #efefef;
+        border: 2px solid #C9AB64;
+        background-color: #efefef;
+        padding: 10px;
+        border-radius: 5px;
+        color:rgba(0, 0, 0, .8);
+        height: 500px;}
+
+        /*Quotes */
+
+        section {width: auto;  display: block; height: 500px;margin-top: 30px;}
+    
+    section .quote-container{
+        
+        height: 400px;
+        font-family: 'Knewave, Montserrat';
+        font-weight: 200;
+        text-align: center;
+        margin: 0px 0 0 0;
+        padding: 0;
+        border-radius: 0;
+       
+        /*box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);*/
+        
+        /*  Vertical height */
+    }
+    
+     /* Term text */
+    .quote-text { 
+        font-size: 3rem;
+        font-family: Knewave;
+        color: #C9AB64;
+    }
+    
+    .long-quote {
+        font-size: 1.5rem;
+    }
+    
+     /* explaination text */
+    .quote-author {
+        margin: 40px 80px 0px 80px;
+        font-size: 1.5em;
+        font-weight: 400;
+        font-family: Montserrat, Arial;
+        color: #efefef;
+        text-align: center;
+    }
+
+    /* explaination text border */
+
+    span#author { border: nonee;}
+    
+        
+     /* button */
+    
+    #new-quote {
+        
+        cursor: pointer;
+        font-size: 2em;
+        background-color: #C9AB64;
+        border: 2px solid #efefef;
+        border-radius: 60px;
+        color: rgba(0, 0, 0, .4);
+        margin: 50px 0px;
+        text-align: center;
+        font-family: Knewave, sans-serif;
+        padding: 20px 30px;
+        position:sticky;
+        
+    }
+
+    
+     #new-quote:hover {
+        background-color: rgba(0, 0, 0, .4);
+        color: #efefef;
+        border: 2px solid #efefef;
+    
+    }
+    
+    #new-quote:active {
+        
+        background-color: #efefef;
+        color: #35455C;
+        
+    }
+    
+    .fa-quote-left {
+        font-size: 3rem;
+        margin-right: 10px;
+        color: #efefef;
+    }
+    .fa-quote-right {
+        font-size: 3rem;
+        margin-left: 10px;
+        color: #efefef;
+    }
+    
+       /* Nav toggle */
+
+   .topnav a.icon {
+    display: none;
+}
+    footer .footer_bar {
+        margin-top: 50px;
+    }
+
+}

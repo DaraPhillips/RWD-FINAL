@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Unicode Transformation format-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>OffTheHookSurfing</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/SIGNUP1.css">
+    <link rel="fav-icon" type="image/x-icon" href="Images/ishan-seefromthesky-FshkDiD1OWs-unsplash.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Montserrat:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/path/to/slick.css">
+    <link rel="stylesheet" href="/path/to/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
+        integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+    <script>function videoslider(links) {
+            document.querySelector(".slider").src = links;
+        }</script>
+    <script>function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        } </script>
+</head>
+
+<body>
+
+    <header>
+
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="./Index1.html" class="active"><img class="Logo" src="../images/Logo.png" alt="OffTheHookSurfingLogo"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="./Index1.html">HOME</a>
+                <a href="./SurfNews1.html">SURFING NEWS</a>
+                <a href="./FORECASTS1.html">FORECASTS</a>
+                <a href="./SURFTIPS1.html">SURF TIPS</a>
+                <a class="search">
+                    <input type="text" class="search-input" placeholder="SEARCH"></a>
+                <a class="button" href="./LOGIN1.html">LOG IN</a>
+                <a class="button" href="./SIGNUP1.html">SIGN UP</a>
+               
+            </div>
+            <!-- "Hamburger menu" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="mainContainer">
+
+            <div class="leftSideMain">
+                
+                <h1>SIGN UP</h1>
+
+                <p class="Here">HERE</p>
+
+            </div>
+
+ </div>
+
+            <div class="LoginContainer">
+                <form action="register.html" method="get" name="member_form" id="member_form"></form>
+                <fieldset>
+                    <legend>Member Information</legend>
+                    
+                <ul class="formblock">
+                   
+                    <li><label for="email1">Email</label>
+                        <input type="email" name="email1" id="email1" placeholder="Kelly.Slater@gmail.com"  required></li>
+
+                        <li><label for="password">Password</label>
+                            <div class="passwrd-wrap">
+                            <input type="text" name="password" id="password" placeholder="Password x 1" required />
+    
+                            <button type="button" id="show-passwd">
+                                <img src="../images/eyeOpen.svg" alt="Show Password" />
+                            </button>
+                        </div></li>
+
+                        <li><label for="password">Confirm Password</label>
+                            <div class="passwrd-wrap">
+                            <input type="text" name="password" id="password" placeholder="Password x 2" required />
+    
+                            <button type="button" id="show-passwd">
+                                <img src="../images/eyeOpen.svg" alt="Show Password" />
+                            </button>
+                        </div></li>
+                    
+                    <li><label for="submit"></label>
+                        <input type="submit" name="submit" id="submit" value="SIGN UP"></li>
+
+                        <li><a class="FP" href="./LOGIN1.html">Already a member? LOG IN</a></li>
+                    
+                </ul>
+                </fieldset>
+            </form>  
+           
+        </div>
+    </main>
+
+    <section>
+        
+           <!--<h2>SURFER <span style="color:#C9AB64;">LINGO</span></h2> -->
+            
+            <div class="quote-container" id="quote-container">
+                <!-- Quote -->
+                <div class="quote-text">
+                    <i class="fas fa-quote-left"></i>
+                    <span id="quote"></span> <i class="fas fa-quote-right"></i>
+                </div>
+       
+                         
+                    
+                <!-- Author -->
+                <div class="quote-author">
+                    <span id="author"></span>
+                </div>
+           
+                
+            
+               <button id="new-quote">SURF TALK!</button>
+                   
+           
+        
+    </section>
+
+    <footer>
+
+        <ul class="footer_bar">
+
+            <li><a href="#AboutUs">About Us</a></li>
+            <li><a href="#Careers">Careers</a></li>
+            <li><a href="#Whats_new">What's new</a></li>
+            <li><a href="#Host_a_Camera">Host a Camera</a></li>
+        </ul>
+    </footer>
+
+    
+    <script src="Script4.js"></script>
+    <script src="ScriptPassword.js"></script>
+</body>
+
+</html>
+

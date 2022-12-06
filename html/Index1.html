@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Unicode Transformation format-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>OffTheHookSurfing</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/Main1.css">
+    <link rel="fav-icon" type="image/x-icon" href="Images/ishan-seefromthesky-FshkDiD1OWs-unsplash.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Montserrat:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/path/to/slick.css">
+    <link rel="stylesheet" href="/path/to/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+ 
+    
+     <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"
+        integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#accordion").accordion({
+                heightStyle: "content"
+            });
+
+
+            $('.picture_container .slides >img').click(function () {
+                var $smallImages = $(this).attr('src');
+                $('.big-screen >img').attr('src', $smallImages);
+            });
+        });
+
+
+    </script>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
+        integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+   <script>function videoslider(links) {
+            document.querySelector(".slider").src = links;
+        }</script>
+    <script>function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        } </script>
+</head>
+
+<body>
+
+    <header>
+
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="./Index1.html" class="active"><img class="Logo" src="../images/Logo.png" alt="OffTheHookSurfingLogo"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="Index1.html">HOME</a>
+                <a href="./SurfNews1.html">SURFING NEWS</a>
+                <a href="./FORECASTS1.html">FORECASTS</a>
+                <a href="./SURFTIPS1.html">SURF TIPS</a>
+                <a class="search">
+                    <input type="text" class="search-input" placeholder="SEARCH"></a>
+                <a class="button" href="./LOGIN1.html">LOG IN</a>
+                <a class="button" href="./SIGNUP2.html">SIGN UP</a>
+
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+    </header>
+    <main>
+        
+        <div class="mainContainer">
+
+            <h1>WHAT ARE YOU</h1>
+
+            <p class="Wave">WAITING FOR?</p>
+            <p class="wuwf">Chase. The. Wave.</p>
+
+        </div>
+
+
+
+        <div class="videoContainer">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/MpgnG7--BmY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        </div>
+    </main>
+<div class="asideContainer">
+
+            <aside> 
+                <span class="Greet">Welcome to Off The Hook Surfing!</span> 
+                
+                <article>Our aim is to provide you with some solid surfing tips, news, and videos that we have put together. Feel free to explore the site, create a profile and add some relevant news but first...</article>
+            </aside>
+        </div>
+
+        <div class="sound"><div class="HEB"><img src="../images/heb.svg"><h4>Headphones</h4><h4>Eyes Closed</h4><h4>Breathe</h4><h4>Press Play</h4><audio controls autoplay>
+            <source src="../images/mixkit-small-waves-harbor-rocks-1208.wav" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio></div></div>
+    
+        
+        <section>
+    <div class="textExample">
+
+        <label>
+            <h2>
+                CREATE A DREAM BUCKETLIST!
+            </h2>
+        </label>
+        <div>
+            <div class="drag-container">
+                   <ul class="drag-list">
+            <!-- Locations Column -->
+            <li class="drag-column products-column">
+                <span class="header">
+                    <h3>Locations</h3>
+                </span>
+                <!-- Locations Content -->
+                <div id="products-content" class="custom-scroll">
+                    <ul class="drag-item-list" id="products-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(0)"></ul>
+                </div>
+                <!-- Add Button Group -->
+                <div class="add-btn-group">
+                    <div class="add-btn" onclick="showInputBox(0)">
+                        <span class="plus-sign">+</span>
+                        <span>Add Location</span>
+                    </div>
+                    <div class="add-btn solid" onclick="hideInputBox(0)">
+                        <span>Save</span>
+                    </div>
+                </div>
+                <div class="add-container">
+                    <div class="add-item" contenteditable="true"></div>
+                </div>
+            </li>
+            <!-- Bucketlist Column -->
+            <li class="drag-column breakfast-column">
+                <span class="header">
+                    <h3>Bucketlist</h3>
+                </span>
+                <!-- Bucketlist Content -->
+                <div id="breakfast-content" class="custom-scroll">
+                    <ul class="drag-item-list" id="breakfast-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(1)"></ul>
+                </div>
+                <!-- Add Button Group -->
+                <div class="add-btn-group">
+                    <div class="add-btn" onclick="showInputBox(1)">
+                        <span class="plus-sign">+</span>
+                        <span>Add Location</span>
+                    </div>
+                    <div class="add-btn solid" onclick="hideInputBox(1)">
+                        <span>Save</span>
+                    </div>
+                </div>
+                <div class="add-container">
+                    <div class="add-item" contenteditable="true"></div>
+                </div>
+            </li>
+            <!-- lunch Column 
+            <li class="drag-column lunch-column">
+                <span class="header">
+                    <h1>Lunch</h1>
+                </span>-->
+                <!-- lunch Content
+                <div id="lunch-content" class="custom-scroll">
+                    <ul class="drag-item-list" id="lunch-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(2)"></ul>
+                </div> -->
+                <!-- Add Button Group 
+                <div class="add-btn-group">
+                    <div class="add-btn" onclick="showInputBox(2)">
+                        <span class="plus-sign">+</span>
+                        <span>Add Item</span>
+                    </div>
+                    <div class="add-btn solid" onclick="hideInputBox(2)">
+                        <span>Save Item</span>
+                    </div>
+                </div>
+                <div class="add-container">
+                    <div class="add-item" contenteditable="true"></div>
+                </div>
+            </li>-->
+            <!-- Dinner Column 
+            <li class="drag-column dinner-column">
+                <span class="header">
+                    <h1>Dinner</h1>
+                </span>
+                 Dinner Content 
+                <div id="dinner-content" class="custom-scroll">
+                    <ul class="drag-item-list" id="dinner-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(3)"></ul>
+                </div>-->
+                <!-- Add Button Group
+                <div class="add-btn-group">
+                    <div class="add-btn" onclick="showInputBox(3)">
+                        <span class="plus-sign">+</span>
+                        <span>Add Item</span>
+                    </div>
+                    <div class="add-btn solid" onclick="hideInputBox(3)">
+                        <span>Save Item</span>
+                    </div>
+                </div>
+                <div class="add-container">
+                    <div class="add-item" contenteditable="true"></div>
+                </div> -->
+            </li>
+        </ul>
+    </div>
+        </div>
+    </div>
+
+        <div class="photoContainer">
+            <h2>NEWS<span style="color: #C9AB64"></span></h2>
+
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <a href="./ARTICLE1.html"><img src="../images/pexels-guy-kawasaki-1654490(1).jpg" style="width:100%"
+                            title="OLD DOG NEW TRICKS" alt="Man-Surfing-with-dog"></a>
+                    <div class="text">OLD DOG NEW TRICKS</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <a href="./ARTICLE2.HTML"><img src="../images/Nazare.webp" style="width:100%"
+                            title="WORLD RECORD SURF" alt="Man surfing 86ft wave"></a>
+                    <div class="text">WORLD RECORD BREAKING</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <a href="./ARTICLE3.html"><img src="../images/dane-hall-at-supertubos.jpg" title="Man surfing tube wave" alt="Man surfing tube wave"
+                        style="width:100%"></a>
+                    <div class="text">SUPERTUBOS</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <a href="./ARTICLE4.html"><img src="../images/basic-surfing-etiquette.jpg" title="Surf behavior guide" alt="Surf behavior guide"
+                        style="width:100%"></a>
+                    <div class="text">ETIQUETTE & LOCALISM</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <a href="./ARTICLE5.html"><img src="../images/foilsurf.jpg" title="HYDROFOIL SURFBOARDS"
+                        alt="Man-Surfing-hydrofoil-surfboard" style=" width: 100%"></a>
+                    <div class="text">HYDROFOIL</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+
+
+            <!-- The dots/circles -->
+            <div class="dots" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+        </div>
+ </section>
+
+        <div class="filler">
+            <ul id="image_rollovers">
+                <li><img src="../images/logan-easterling-dP6i0grBlTY-unsplash.jpg" alt="" id="../images/Group101.jpg"></li>
+            </ul>
+        </div>
+
+   
+
+    <div class="ArticleContainer">
+
+        <h2 class="feature">FEATURED</h2>
+
+        <img src="../images/sunset-ga5b0745f3_1280.jpg">
+
+        <h2>8 reasons why picking up surfing is a swell idea</h2>
+
+        <article>When people think of surfers, they think, duuuude, toned body, wavy hair and incredible balance. What the average Joe Soap doesn't realise, is that the benefits surfing can contribute to a persons
+            life are monumental. Hear me out...
+        </article> 
+        <article>
+        </article>
+
+        <ol>
+            <li>
+                A great reason to wake up early, as morning is the best time to surf.
+            </li>
+            <li>
+                A salty bath to improve the health of your skin.
+            </li>
+            <li>Disconnecting from the virtual world and reconnecting with the present boostsing ones overall mood.</li>
+            <li>Excellent rewards for your immune system, cardiovascular system, your muscles, timing and balance.</li>
+            <li>Helps improve your ability to stay calm in situations where you are not in control. (Getting smashed by waves lol)</li>
+            <li>Meeting new like minded friends or significant other.</li>
+            <li>Catching epic waves and having fun!</li>
+            <li> Every beach has dogs, fish + chips and ice-cream... need I say more?</li>
+        </ol>
+
+
+        <p class="Date">Date : Mon 4th Sep 2022</p>
+        <p class="Author">Author : Brian Jacobs</p>
+        <p class="photographer">Photogapher : Ally newman</p>
+ <div><img class="advert"src="../images/101488-ISPO22-Banner-Sustainability-Ticket-728x90_E.gif" alt="Advertisement"></div>
+    </div>
+
+   
+
+
+
+    <footer>
+
+        <ul class="footer_bar">
+
+            <li><a href="#AboutUs">About Us</a></li>
+            <li><a href="#Careers">Careers</a></li>
+            <li><a href="#Whats_new">What's new</a></li>
+            <li><a href="#Host_a_Camera">Host a Camera</a></li>
+            <li>
+                <address>Contact: Author: Dara Phillips |Phone: 085 (0999) 440|
+                    <a href="mailto:K00276266@student.lit.ie">Email: K00276266@student.lit.ie
+                    </a>
+                </address>
+            </li>
+        </ul>
+    </footer>
+
+     <script src="rollover.js"></script>
+     <script src="videoChoice.js"></script>
+     <script src="DragNDrop.js"></script>
+</body>
+
+</html>
+
+
+
+<!--Gold Coast, Australia</li>
+                <li>Jeffrey's Bay, South Africa</li>
+                <li>Bukit Peninsula, Bali, Indonesia</li>
+                <li>Malibu, California, USA</li>
+                <li>Oahu, Hawaii, USA</li>
+                <li>Ericeira, Portugal</li>
+                <li>Hossegor, France</li>
+                <li>Santa Cruz, California, USA</li>
+                <li>Puerto Escondido, Mexico</li>
+                <li>San Juan del Sur, Nicaragua -->

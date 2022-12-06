@@ -1,0 +1,608 @@
+body {
+    margin: 0px 10px;
+    padding: 0;
+    background-color: #35455C;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #35455C;
+    position: relative;
+    
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 20px 23px;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    border-radius: 100px;
+    border: 2px solid #C9AB64;
+
+}
+
+.topnav a.icon:hover {
+    background-color: #C9AB64;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    border-radius: 100px;
+    border: 2px solid #efefef;
+
+}
+
+/* Add a grey background color on mouse-over */
+.topnav #myLinks :hover {
+    background-color: rgba(0, 0, 0, .4);
+    color: #efefef; 
+    border-radius: 5px;
+    border: 2px solid #efefef;
+}
+
+.topnav #myLinks :active {
+    border-radius: 5px;
+    border: 2px solid #C9AB64;
+    background-color: #efefef;
+    color: #35455C;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #35455C;
+    color: white;
+    width: 100%;
+}
+
+.topnav img {
+    left: 0;
+    top: 0;
+    padding: 0;
+    width: 17%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+}
+
+#myLinks .button {
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    color: rgba(0, 0, 0, .4);
+    font-family: Knewave;
+}
+
+#myLinks input.search-input {font-family: Montserrat; 
+    text-align: center;
+    padding: 2.5px;}
+
+/* Header */
+
+main {
+    height: 600px;
+    
+}
+
+.mainContainer {
+    background-color: rgba(0, 0, 0, .4);
+    height: 200px;
+    
+}
+
+.mainContainer h1 {
+    width: 100%;
+    color: #efefef;
+    text-align: center;
+    font-size: 3em;
+    font-family: Knewave, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.mainContainer .Here {
+    width: 100%;
+    color: #C9AB64;
+    text-align: center;
+    font-size: 3em;
+    font-family: Knewave, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: -25px;
+}
+
+.leftSideMain {
+    height: 200px;
+}
+
+/* Form */
+
+.LoginContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.passwd-wrap {
+    position: relative;
+}
+
+#show-passwd {
+
+    
+    position: absolute;
+    cursor: pointer;
+    width: 2.5rem;
+    margin-left: -45px;
+    margin-top: 8px;
+    border: none;
+    background: none;
+   
+}
+
+    #show-passwd img {
+        width: 100%;
+        border: none;
+        height: auto;
+    }
+
+.formblock {
+    width: 100%;
+    height: 500px;
+    background-color: #35455C;
+    border-radius: 15px;
+    border: 2px solid #C9AB64;
+    display: block;
+    align-items: center;
+    padding: 0 0 0 0px;
+    margin: 0px 0px 0 0;
+}
+
+.formblock li {
+    font-size: 2em;
+    color: #efefef;
+    width: 100%;
+    display: block;
+}
+
+.formblock input {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: .5em;
+
+}
+
+.formblock label {
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    width: 100%;
+}
+
+.formblock #submit {
+   
+    text-align: center;
+    padding: 20px 20px;
+    color: rgba(0, 0, 0, .4);
+    background-color: #C9AB64;
+    border: 2px solid #efefef;
+    margin: 20px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: .7em;
+    width: 60%;
+}
+
+.formblock #submit:hover {
+    
+    text-align: center;
+    padding: 20px 20px;
+    color: #efefef;
+    background-color: rgba(0, 0, 0, .4);
+    border: 2px solid #efefef;
+    margin: 20px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: .7em;
+    width: 60%;
+}
+
+.formblock #submit:active {
+    
+    text-align: center;
+    padding: 20px 40px;
+    color: #35455C;
+    background-color: #efefef;
+    border: 2px solid #efefef;
+    margin: 20px 0px 0px 0px;
+    font-family: Knewave;
+    font-size: .7em;
+}
+
+.formblock li {
+    color: #efefef;
+
+    width: 100%;
+    text-align: center;
+}
+
+.formblock li .FP {
+    color: #efefef;
+    font-size: .5em;
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+}
+
+
+/* Footer */
+
+ul.footer_bar {
+    margin:200px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer_bar {
+    background-color: rgba(0, 0, 0, .8);
+    list-style: none;
+    text-align: center;
+    color: #efefef;
+    padding: 0;
+    height: 300px;
+    flex-direction: column;
+}
+
+
+.footer_bar li a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+.footer_bar li a:hover {
+    color: #C9AB64;
+    text-decoration: #C9AB64;
+}
+
+.footer_bar li a:active {
+    color: #35455C;
+    text-decoration: #35455C;
+}
+
+section {width: 0; background-color: none;  display: none; height: 0px;}
+
+
+@media only screen and (min-width: 412px) {
+
+    body {
+        margin: 0px 60px;
+    }
+
+    /* Main */
+
+    main {
+        height: 400px;
+    }
+
+    .mainContainer {
+        height: 400px;
+    }
+
+    .mainContainer h1 {
+        width: 100%;
+        color: #efefef;
+        text-align: center;
+        font-size: 5em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .mainContainer .Here {
+        width: 100%;
+        color: #C9AB64;
+        text-align: center;
+        font-size: 5em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        margin-top: -25px;
+    }
+
+    /* Form */
+
+    .LoginContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .formblock {
+        width: 100%;
+        height: 500PX;
+        background-color: #35455C;
+        border-radius: 15px;
+        border: 2px solid #C9AB64;
+        display: block;
+        align-items: center;
+        padding: 0 0 0 0px;
+        margin: 0px 0px 0 0;
+    }
+    
+    .formblock li {
+        font-size: 2em;
+        color: #efefef;
+        width: 100%;
+        display: block;
+    }
+
+    /* Photo Container */
+
+    .Accessories {
+        background-color: rgba(0, 0, 0, .4);
+        height: 100%;
+        margin-top: 950px;
+    }
+
+    .Accessories h2 {
+        width: 100%;
+        text-align:
+            center;
+        font-family:
+            Knewave, Arial, Helvetica, sans-serif;
+        color: #efefef;
+        margin: 0;
+        padding: 40px 0px;
+        font-size: 3em;
+    }
+
+    .Accessories img {
+        width: 120px; height: 100px;
+        margin: 0px 10px;
+    }
+
+    footer .footer_bar {
+        margin-top: 600px;
+    }
+    section {width: 0; background-color: none;  display: none; height: 0px;}
+
+}
+
+@media only screen and (min-width: 1060px) {
+
+    body {
+        margin: 0px 80px;
+    }
+
+    /* Nav */
+
+    .topnav #myLinks {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+
+    #myLinks .button {
+        background-color: #C9AB64;
+        border: 2px solid #efefef;
+        color: rgba(0, 0, 0, .4);
+        font-family: Knewave;
+        border-radius: 5px;
+        margin-right: 4px;
+    }
+
+    #myLinks a:hover {
+        border-radius: 5px;
+        border: 2px solid #efefef;
+    }
+
+    #myLinks .button:active {
+        background-color: #C9AB64;
+        border: 2px solid #efefef;
+        background-color: #efefef;
+        color: #35455C;
+        border-radius: 5px;
+        margin-right: 4px;
+    }
+
+    #myLinks a:active {
+        border-radius: 5px;
+        border: 2px solid #C9AB64;
+        background-color: #efefef;
+        color: #35455C;
+    }
+
+    /* Main */
+
+    main {
+        height: 650px;
+        display: flex;
+        background-color: rgba(0, 0, 0, .4);
+    }
+
+    .mainContainer {
+        height: 500px;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .mainContainer h1 {
+        width: 100%;
+        color: #efefef;
+        text-align: center;
+        font-size: 7em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding-top: 100px;
+    }
+
+    .mainContainer .Here {
+        width: 100%;
+        color: #C9AB64;
+        text-align: center;
+        font-size: 7em;
+        font-family: Knewave, Arial, Helvetica, sans-serif;
+        margin: 0;
+        margin-top: -25px;
+    }
+
+    .LoginContainer {width: 25%; margin-top: 80px; margin-left: 80px;}
+
+    .formblock {float: right; height: 500px; }
+
+
+
+    /* Accessories Container */
+
+    .Accessories {
+        background-color: rgba(0, 0, 0, .4);
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .Accessories h2 {
+        width: 100%;
+        text-align:
+            center;
+        font-family:
+            Knewave, Arial, Helvetica, sans-serif;
+        color: #efefef;
+        margin: 0;
+        padding: 40px 0px;
+        font-size: 4em;
+    }
+
+    .Accessories img {
+        width: 320px; height: 200px;
+        margin: 0px 10px;
+    }
+
+    footer .footer_bar {
+        margin-top: 50px;
+    }
+
+    section {width: 100%;  display: block; height: 500px;}
+    
+    section .quote-container{
+   
+       
+        width: 100%; 
+        height: 500px;
+        font-family: 'Knewave, Montserrat';
+        font-weight: 200;
+        text-align: center;
+        margin: 50px 0 0 0;
+        padding: 0;
+        border-radius: 0;
+        background-color:  rgba(0, 0, 0, .4);
+        /*box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);*/
+        
+        /*  Vertical height */
+    }
+    
+     /* Term text */
+    .quote-text { 
+        font-size: 5rem;
+        font-family: Knewave;
+        color: #C9AB64;
+    }
+    
+    .long-quote {
+        font-size: 2rem;
+    }
+    
+     /* explaination text */
+    .quote-author {
+        margin: 40px 80px 0px 80px;
+        font-size: 3rem;
+        font-weight: 400;
+        font-family: Montserrat, Arial;
+        color: #efefef;
+        text-align: center;
+    }
+
+    /* explaination text border */
+
+    span#author { border: nonee;}
+    
+        
+     /* button */
+    
+    #new-quote {
+        
+        cursor: pointer;
+        font-size: 2em;
+        background-color: #C9AB64;
+        border: 2px solid #efefef;
+        border-radius: 60px;
+        color: rgba(0, 0, 0, .4);
+        margin: 50px 0px;
+        text-align: center;
+        font-family: Knewave, sans-serif;
+        padding: 20px 30px;
+        position:sticky;
+        
+    }
+
+    
+     #new-quote:hover {
+        background-color: rgba(0, 0, 0, .4);
+        color: #efefef;
+        border: 2px solid #efefef;
+    
+    }
+    
+    #new-quote:active {
+        
+        background-color: #efefef;
+        color: #35455C;
+        
+    }
+    
+    .fa-quote-left {
+        font-size: 3rem;
+        margin-right: 10px;
+        color: #efefef;
+    }
+    .fa-quote-right {
+        font-size: 3rem;
+        margin-left: 10px;
+        color: #efefef;
+    }
+    
+    .quote-container {display: block;}
+    
+    /* Media Query: Tablet or Smaller */
+    
+    @media screen and (max-width: 1000px) {
+        .quote-container {
+            margin: auto 10px;
+        }
+    
+        .quote-text {
+            font-size: 2.5rem;
+        }
+    }
+    
+}
